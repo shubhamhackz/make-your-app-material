@@ -246,8 +246,8 @@ public class ArticleListActivity extends AppCompatActivity implements
             constraintSet.clone(holder.constraintLayout);
             constraintSet.setDimensionRatio(holder.thumbnailView.getId(), ratio);
             constraintSet.applyTo(holder.constraintLayout);
-            Picasso.get().load(url).placeholder(R.drawable.books_placeholder_coffee)
-                    .error(R.drawable.books_placeholder_coffee).into(holder.thumbnailView);
+            Picasso.get().load(url).placeholder(R.drawable.placeholder)
+                    .error(R.drawable.placeholder).into(holder.thumbnailView);
 
         }
 

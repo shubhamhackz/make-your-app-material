@@ -114,7 +114,7 @@ public class ArticleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
             authorTextView.setText(String.format(context.getString(R.string.by_author), author));
             dateTextView.setText(date);
             Picasso.get().load(photoUrl).resize(PALETTE_IMAGE_SIDE, PALETTE_IMAGE_SIDE)
-                    .error(R.drawable.books_placeholder_coffee).into(new com.squareup.picasso.Target() {
+                    .error(R.drawable.placeholder).into(new com.squareup.picasso.Target() {
                 @Override
                 public void onBitmapLoaded(android.graphics.Bitmap bitmap, Picasso.LoadedFrom from) {
                     //set the background color of the title to one of the main colors of the image

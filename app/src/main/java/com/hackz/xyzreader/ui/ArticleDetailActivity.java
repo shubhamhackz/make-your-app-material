@@ -159,8 +159,8 @@ public class ArticleDetailActivity extends AppCompatActivity
             String photoUrl = cursor.getString(ArticleLoader.Query.PHOTO_URL);
             titleFab = cursor.getString(ArticleLoader.Query.TITLE);
             authorFab = cursor.getString(ArticleLoader.Query.AUTHOR);
-            Picasso.get().load(photoUrl).placeholder(R.drawable.books_placeholder_coffee)
-                    .error(R.drawable.books_placeholder_coffee).into(articleImage);
+            Picasso.get().load(photoUrl).placeholder(R.drawable.placeholder)
+                    .error(R.drawable.placeholder).into(articleImage);
 
         }
 

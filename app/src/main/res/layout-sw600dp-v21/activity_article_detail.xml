@@ -30,7 +30,7 @@
                 app:layout_collapseMode="pin"
                 android:contentDescription="@string/decorative_image_no_content"
                 android:elevation="@dimen/app_bar_elevation"
-                android:src="@drawable/books_placeholder_coffee"
+                android:src="@drawable/placeholder"
                 android:scaleType="centerCrop"/>
 
             <android.support.v7.widget.Toolbar
