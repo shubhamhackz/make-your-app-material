@@ -1,0 +1,50 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="DetailAppTheme" parent ="AppTheme">
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">true</item>
+    </style>
+
+    <style name="ArticleTitle">
+        <item name="android:textSize">@dimen/article_title_text_size</item>
+        <item name="android:textColor">@color/article_card_view_text</item>
+    </style>
+
+    <style name="ArticleSubtitle">
+        <item name="android:textSize">@dimen/article_subtitle_text_size</item>
+        <item name="android:textColor">@color/article_card_view_sub</item>
+    </style>
+
+    <style name="ArticleDetailTitle">
+        <item name="android:textSize">@dimen/article_detail_title</item>
+        <item name="android:padding">@dimen/article_title_padding</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/title_detail_text_color</item>
+    </style>
+
+    <style name="ArticleDetailDate">
+        <item name="android:textSize">@dimen/article_detail_date</item>
+        <item name="android:textColor">@color/detail_date_color</item>
+    </style>
+    <style name="ArticleDetailAuthor">
+        <item name="android:textSize">@dimen/article_detail_author</item>
+        <item name="android:textColor">@color/title_detail_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+   <style name="ArticleBody">
+       <item name="android:textSize">@dimen/article_body_text_size</item>
+       <item name="android:paddingTop">@dimen/article_body_top_padding</item>
+       <item name="android:paddingStart">@dimen/article_body_lateral_padding</item>
+       <item name="android:paddingEnd">@dimen/article_body_lateral_padding</item>
+   </style>
+
+</resources>
