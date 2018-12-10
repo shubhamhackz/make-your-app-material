@@ -8,7 +8,7 @@
     <dimen name="fab_elevation">6dp</dimen>
     <dimen name="app_bar_elevation">4dp</dimen>
     <dimen name="toolbar_detail_padding_top">24dp</dimen>
-    <dimen name="card_rv_elevation">4dp</dimen>
+    <dimen name="card_rv_elevation">1dp</dimen>
 
     <dimen name="article_body_lateral_padding">16dp</dimen>
     <dimen name="article_body_top_padding">4dp</dimen>
